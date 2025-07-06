@@ -102,18 +102,6 @@ Manage phone/email login.
 Logout & Account Deletion:
 
 
-some UI images :
-![Screenshot_20250706-213309](https://github.com/user-attachments/assets/598345f2-64e4-4742-b23f-e64b7a674c31)
-![Screenshot_20250706-213253](https://github.com/user-attachments/assets/8044d2e2-5f6b-4d68-b7bb-dfbc7a82f2a9)
-![Screenshot_20250706-213244](https://github.com/user-attachments/assets/b4f0f891-eaf5-4475-b272-eb803401ffc1)
-![Screenshot_20250706-213239](https://github.com/user-attachments/assets/98e39409-2539-4780-bab6-4b31935b1b7f)
-![Screenshot_20250706-213226](https://github.com/user-attachments/assets/e25fc4bc-071d-4242-a5bf-ecd1499bd898)
-![Screenshot_20250706-213208](https://github.com/user-attachments/assets/2e64306c-8767-4206-a598-87bbb883ac2c)
-![Screenshot_20250706-213204](https://github.com/user-attachments/assets/d770cbca-f6c6-449f-b8c7-9d768c372f45)
-![Screenshot_20250706-213156 (1)](https://github.com/user-attachments/assets/95e60e13-4a98-4096-9f17-ca73cdac1f3f)
-![Screenshot_20250706-213153 (1)](https://github.com/user-attachments/assets/21659196-4e76-4fc8-8a83-556ac86c3690)
-![Screenshot_20250706-213128](https://github.com/user-attachments/assets/f8314e74-fc79-451e-9d7d-d02d664ed782)
-
 Full account lifecycle management.
 
 🛠️ Tech Stack
