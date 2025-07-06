@@ -148,11 +148,6 @@ Create google-services.json from Firebase Console and place in /app.
 
 Build and run on an emulator or device.
 
-✉️ Contact
-For any questions or feedback:
-
-📧 your.email@example.com
-📱 LinkedIn Profile
 
 📄 License
 This project is licensed under the MIT License.
