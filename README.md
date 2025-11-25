@@ -43,3 +43,32 @@ SpeakUp is a modern, voice-first social blogging Android application that allows
   3. Snapshot listener updates messages in real-time.
   4. Notification entry is created for the recipient (Firestore/FCM).
   5. Receiver gets an instant alert.
+
+  <img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/51ffb207-f6a8-42ed-b665-d7b8a09a0e90" />
+
+  <img width="1080" height="2400" alt="2" src="https://github.com/user-attachments/assets/a32425a5-a49a-46f8-aa1e-e70f4de001de" />
+
+  <img width="1080" height="2400" alt="3" src="https://github.com/user-attachments/assets/9bcb19aa-c981-4492-bee9-0af212a8836e" />
+
+  <img width="1080" height="2400" alt="4" src="https://github.com/user-attachments/assets/4d087770-1378-47e1-80c4-4c97d2c3d452" />
+
+  <img width="1080" height="2400" alt="5" src="https://github.com/user-attachments/assets/b195979a-c78f-43cb-a394-454f193cbce4" />
+
+  <img width="1080" height="2400" alt="6" src="https://github.com/user-attachments/assets/778b6f0e-2b2b-4bd4-a938-92d60ab530a5" />
+
+  <img width="1080" height="2400" alt="7" src="https://github.com/user-attachments/assets/cd159cbc-84d7-495c-a485-a1b078de0424" />
+
+  <img width="1080" height="2400" alt="8" src="https://github.com/user-attachments/assets/a0ac7464-c3eb-4273-96c9-05ad0f51b2cb" />
+
+  <img width="1080" height="2400" alt="9" src="https://github.com/user-attachments/assets/d11aa762-1ac1-4dd2-b634-4accccd095d9" />
+
+  <img width="1080" height="2400" alt="10" src="https://github.com/user-attachments/assets/2d0d7ffb-a0fb-4b79-98e5-c7c40d63ab93" />
+
+
+
+
+
+
+
+
+
