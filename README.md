@@ -1,165 +1,156 @@
-🎙️ SpeakUp – Voice to Blog Android App
-SpeakUp is a feature-rich, voice-first social blogging app for Android. It empowers users to turn their spoken thoughts into blog-style posts, connect with others, and build a community.
+🎙️ SpeakUp – Voice-to-Blog Android Application
 
-Built using Java, Firebase, and Material Design, SpeakUp demonstrates a complete end-to-end modern Android application.
+SpeakUp is a modern, voice-first social blogging platform built for Android. It transforms spoken ideas into polished blog posts, helping users express themselves effortlessly while connecting with a thriving community.
 
-✨ Features
+Designed with Java, Firebase, and Material Design, SpeakUp showcases a fully functional, real-world Android application with modular architecture, powerful social features, and smooth UI/UX.
+
+✨ Key Features
 🗣️ Voice-to-Blog Creation
-Speech-to-Text: Use Android’s SpeechRecognizer API to dictate your blog.
 
-Edit & Polish: Refine transcribed text before publishing.
+Speech-to-Text: Uses Android’s SpeechRecognizer API to convert user speech into text.
 
-Drafts: Save unfinished posts (planned).
+Live Transcription: Real-time text generation as the user speaks.
+
+Smart Editing: Users can refine, edit, and format the generated text before publishing.
+
+Draft Mode (Upcoming): Save incomplete posts for later editing.
 
 👤 User Management
-Authentication:
+🔐 Authentication
 
-Email/password sign-up.
+Email/password registration & login.
 
-Phone number verification via Firebase.
+Phone number OTP verification via Firebase Authentication.
 
-Profile:
+🧑 Profile Management
 
 Display Name, Username, Bio, Profile Picture.
 
-Followers / Following counts.
+Followers and Following counts.
 
-Privacy Settings:
+Profile editing with real-time sync.
 
-Control who can see your posts.
+🔒 Privacy & Safety
 
-Block/report users.
+Control post visibility (public / followers only).
 
-📰 Blog Feed & Content
-Home Feed:
+Block and report users for safety.
 
-Vertical list of your posts.
+📰 Blog Feed & Content System
+Home Feed
 
-Carousel of community posts.
+Vertical feed showing user’s posts.
 
-Post Features:
+Horizontal carousel displaying community posts.
 
-Likes and Comments.
+Post Capabilities
 
-Timestamp display.
+Like and Comment functionality.
 
-Tags and mentions.
+Timestamp display (e.g., "10 mins ago").
 
-Daily Writing Prompts:
+Hashtags, mentions, and categorization.
 
-Get inspired with fresh ideas.
+✍️ Daily Writing Prompts
+
+Automatically refreshed prompts to inspire users.
 
 ❤️ Social Features
-Likes & Comments:
+Engagement
 
-Engage with posts.
+Like/unlike posts.
 
-Moderate own comments.
+Add, delete, and moderate comments.
 
-Followers & Following:
+Connections
 
-Follow users to see their content.
+Follow / Unfollow users.
 
-Friend Requests:
+Friend Request system with accept/reject options.
 
-Send/accept friend requests.
+Profiles
 
-Profile Viewing:
-
-View others’ profiles and posts.
+View other users’ profiles, their posts, followers, and following list.
 
 💬 Real-Time Chat & Notifications
-Chat:
+Realtime Chat
 
-One-to-one messaging.
+One-to-one messaging using Firestore.
 
-Realtime updates using Firebase.
+Live typing and message updates via snapshot listeners.
 
-Notifications:
+Notifications
 
-Likes, comments, and friend requests.
+Triggered for likes, comments, follows, and friend requests.
 
-Built with Firestore and optional FCM.
+Built using Firestore triggers and optional Firebase Cloud Messaging (FCM).
 
 🔎 Search & Discovery
-Search Users:
 
-By username.
+User Search: Find users by username.
 
-Search Posts:
+Post Search: Search posts via keywords, tags, or hashtags.
 
-By keywords or tags.
+Instant suggestions and fast lookup with Firestore indexing.
 
 ⚙️ App Settings
-Theme Switching:
 
-Light & Dark mode.
+Theme Switching: Toggle between Light Mode and Dark Mode.
 
-Linked Accounts:
+Linked Accounts: Manage email & phone-linked logins.
 
-Manage phone/email login.
+Session Management: Logout, deactivate, or permanently delete account.
 
-Logout & Account Deletion:
+🛠️ Tech Stack & Architecture
+Language:
 
+Java
 
-Full account lifecycle management.
+UI:
 
-🛠️ Tech Stack
-Layer	Details
-Language	Java
-UI	XML + Material Components
-Backend	Firebase Firestore, Auth, Storage, Messaging
-Image Handling	Glide
-Architecture	MVVM-inspired, modular Activities
-Notifications	Firestore + optional FCM
+XML layouts with Material Components, RecyclerViews, BottomNavigation, and modern UI patterns.
 
+Backend Services:
 
-🧭 Data Flow & Architecture
-Example Flow: Posting a Blog
-User records voice in RecordingActivity.
+Firebase Authentication – User login/registration
 
-SpeechRecognizer transcribes audio to text.
+Cloud Firestore – Posts, users, chats, notifications
+
+Firebase Storage – Images, profile pictures
+
+Firebase Cloud Messaging (optional) – Push notifications
+
+Image Loading:
+
+Glide (optimized caching and async loading)
+
+Architecture Pattern:
+
+MVVM-inspired modular structure
+
+Clean separation of Activities, ViewModels, Repositories & Utils
+
+Real-time data with Firestore snapshot listeners
+
+🧭 Workflow Examples
+🔄 Blog Creation Flow
+
+User records audio in RecordingActivity.
+
+Audio is processed via SpeechRecognizer → converted into text.
 
 User edits text in CreatePostActivity.
 
-Post saved to Firestore under posts collection.
+Post is uploaded to Firestore under /posts/.
 
-Feed updates dynamically via snapshot listener in HomeActivity.
+Home feed auto-updates due to snapshot listeners in HomeActivity.
 
-Example Flow: Chat
-User opens chat in ChatActivity.
+💬 Chat Flow
 
-Messages loaded from Firestore chats collection.
+User opens ChatActivity.
 
-Realtime updates with snapshot listener.
+App loads message history from /chats/.
 
-Notifications created in Firestore for recipients.
+Firestore snapshot listener streams new messages instantly.
 
-🚀 Getting Started
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/SpeakUp.git
-Open in Android Studio.
-
-Create google-services.json from Firebase Console and place in /app.
-
-Build and run on an emulator or device.
-
-
-📄 License
-This project is licensed under the MIT License.
-
-🙏 Acknowledgments
-Special thanks to:
-
-Google Firebase
-
-Android Developers documentation
-
-Open source libraries (Glide, Material Components)
-
-If you like this project, please ⭐ it and share!
-
+Notification entry created for the receiver via Firestore/FCM.
