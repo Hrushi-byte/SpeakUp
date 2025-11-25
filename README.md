@@ -44,7 +44,7 @@ SpeakUp is a modern, voice-first social blogging Android application that allows
   4. Notification entry is created for the recipient (Firestore/FCM).
   5. Receiver gets an instant alert.
 
-  <img width="200" height="1000" alt="1" src="https://github.com/user-attachments/assets/51ffb207-f6a8-42ed-b665-d7b8a09a0e90" />
+  <img width="500" height="1000" alt="1" src="https://github.com/user-attachments/assets/51ffb207-f6a8-42ed-b665-d7b8a09a0e90" />
 
   <img width="500" height="1000" alt="2" src="https://github.com/user-attachments/assets/a32425a5-a49a-46f8-aa1e-e70f4de001de" />
 
